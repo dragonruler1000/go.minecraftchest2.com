@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        // Generate a random integer from 1 to 10
+        const random = Math.floor(Math.random() * 10) + 1;
+
+        let url;
+
+        if (random === 3) {
+            // 10% chance
+            url = "https://example.com/second-link";
+        } else {
+            // 90% chance
+            url = "https://www.churchofjesuschrist.org/bofm-app/share?v=2&id=tAMq";
+        }
+
+        window.location.replace(url);
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
